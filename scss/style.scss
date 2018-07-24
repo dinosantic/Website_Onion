@@ -6,6 +6,7 @@ $text-secondary: #444;
 
 body{
     font-size: 22px;
+    background-color: #444;
 }
 
 /*------NAVIGATION SECTION------*/
@@ -38,6 +39,7 @@ body{
 .carousel-item{
     height: 500px;
 }
+
 .carousel-image-1{
     background:url("../img/care2.jpg");
     background-size: cover;
@@ -78,6 +80,25 @@ body{
             margin-left: 0rem !important;
             margin-right: 0rem !important;
         }
+    }
+    @media (max-width: 767.98px) { 
+
+        // .carousel-image-1{
+        //     background:url("../img/card1.jpg");
+        //     background-size: cover;
+        //     background-repeat: no-repeat;
+        // }
+        // .carousel-image-2{
+        //     background:url("../img/slika3.jpg");
+        //     background-size: cover;
+        //     background-repeat: no-repeat;
+        // }
+        // .carousel-image-3{
+        //     background:url("../img/slika4.jpg");
+        //     background-size: cover;
+        //     background-repeat: no-repeat;
+        // }
+
     }
 }
 

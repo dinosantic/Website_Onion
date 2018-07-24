@@ -4,32 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Bootstrap 4 Starter Pack</title>
+  <title>Dom za stare "Onion"</title>
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-md navbar-light fixed-top py-4">
-    <div class="container pr-2">
+  <nav class="navbar navbar-expand-md navbar-light fixed-top cbp-af-header">
+    <div class="container pr-2" >
 
       <a href="index.html" class="navbar-brend">
-      <img src="img/onion-logo.png" width="200" height="70" alt=""> <h3 class="d-inline align-middle"></h3></a>
+      <img src="img/onion-logo.png" alt="" class="logo cbp-af-header" ></a>
 
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse pr-2" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="#home" class="nav-link">POČETNA</a>
+            <a href="#showcase" class="nav-link">POČETNA</a>
           </li>
           <li class="nav-item">
               <a href="#about" class="nav-link">O NAMA</a>
           </li>
           <li class="nav-item">
-              <a href="#authors" class="nav-link">NAŠ TIM</a>
+              <a href="#home-heading" class="nav-link">NAŠ TIM</a>
           </li>
           <li class="nav-item">
-            <a href="#authors" class="nav-link">NAŠA LOKACIJA</a>
+            <a href="#map" class="nav-link">NAŠA LOKACIJA</a>
         </li>
           <li class="nav-item">
               <a href="#contact" class="nav-link">KONTAKT</a>
@@ -42,19 +42,13 @@
  <section id="showcase">
     <div id="myCarousel" class="carousel slide" data-ride:="carousel">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <!-- <ol class="carousel-indicators mb-5">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-dark"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-dark"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2" class="bg-dark"></li>
-            </ol> -->
             <div class="carousel-inner">
-
               <div class="carousel-item active carousel-image-1">
                 <div class="container">
                   <div class="overlay">
                   <div class="carousel-caption mb-5 mx-5">
-                    <h1 class="display-3 text-dark pb-3" id="carousel-heading1">Naslov 1</h1>
-                    <p class="text-dark mb-5 mx-5" id="carousel-paragraph1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia id illo, inventore doloribus adipisci ducimus suscipit numquam nemo nesciunt reprehenderit?</p>
+                    <h1 class="display-3 text-dark pb-3" id="carousel-heading1">Dom za stare "Onion"</h1>
+                    <p class="text-dark mb-5 mx-5" id="carousel-paragraph1">Usluga kakvu zaslužuju osobe koje volite i cijenite. Omogućite im da treću dob provedu u miru, druženju i svakodnevnim aktivnostima.</p>
                     
                   </div><!--car-caption-->
                 </div><!--overlay-->
@@ -65,8 +59,8 @@
                   <div class="container">
                       <div class="overlay">
                       <div class="carousel-caption text-center mb-5 mx-5">
-                        <h1 class="display-3 text-dark pb-3" id="carousel-heading2">Naslov 2</h1>
-                        <p class="text-dark mb-5 mx-5" id="carousel-paragraph2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia id illo, inventore doloribus adipisci ducimus suscipit numquam nemo nesciunt reprehenderit?</p>                        
+                        <h1 class="display-3 text-dark pb-3" id="carousel-heading2">Naša misija</h1>
+                        <p class="text-dark mb-5 mx-5" id="carousel-paragraph2">Obezbijediti superiornu kliničku njegu,  rehabilitaciju i pomoćne usluge koje zadovoljavaju želje, potrebe i očekivanja naših pacijenata.</p>                        
                       </div><!--car-caption-->
                     </div><!--overlay-->
                     </div><!--container-->
@@ -75,7 +69,7 @@
                   <div class="container">
                       <div class="overlay">
                       <div class="carousel-caption mb-5 mx-5">
-                        <h1 class="display-3 text-dark pb-3" id="carousel-heading3">Naslov 3</h1>
+                        <h1 class="display-3 text-dark pb-3" id="carousel-heading3">Za bezbrižne dane starosti</h1>
                         <p class="text-dark mb-5 mx-5" id="carousel-paragraph3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia id illo, inventore doloribus adipisci ducimus suscipit numquam nemo nesciunt reprehenderit?</p>
                         
                       </div><!--car-caption-->
@@ -102,10 +96,10 @@
           <div class="row" id="row-about">
 
               <div class="card mb-0 mx-3">
-                  <img class="card-img-top img-fluid" src="../img/onion1.jpg" alt="Card image cap">
+                  <!-- <img class="card-img-top img-fluid" src="../img/onion1.jpg" alt="Card image cap"> -->
                   <div class="card-body px-0 pt-0">
                     <h1 class="card-title text-center text-light py-2">Dom za stare "Onion"</h1>
-                    <p class="card-text text-justify px-2">PZU Dom za stare „Onion“ je ustanova koja pruža usluge smještaja i njege za starije i nemoćne osobe uz 24-satni nadzor medicinski stručnog osoblja. Objekat u kojem se nalazi dom je namjenski građen za potrebe starijih osoba u cilju pružanja visoko kvalitetnih usluga i njege. Medicinsko osoblje naše ustanove je edukovano i osposobljeno za izvršavanje svih medicinsko-tehničkih radnji kako bi se naši korisnici osjećali zdravo, komforno i zbrinjeno.</p>
+                    <p class="card-text text-justify px-2">PZU Dom za stare ''Onion'' se nalazi u neposrednoj blizi Brčkog, u zelenoj oazi koja stanarima doma garantuje mir i odmor za vrijeme boravka u domu i predstavlja idealno mjesto za ugodne šetnje u prirodi. Radi se o ustanovi koja pruža usluge smještaja i njege za starije i nemoćne osobe uz 24-satni nadzor medicinskog stručnog osoblja. Objekat u kojem se nalazi dom je namjenski građen za potrebe starijih osoba u cilju pružanja visoko kvalitetnih usluga i njege. Medicinsko osoblje naše ustanove je edukovano i osposobljeno za izvršavanje svih medicinsko-tehničkih radnji kako bi se naši korisnici osjećali zdravo, komforno i zbrinjeno. Posebnu pažnju dajemo novim stanarima prilikom dolaska, jer smo svijesni da tranzicija nije lagana radi čega se trudimo da novo okruženje stanarima učinimo što udobnijim i interesantnijim.</p>
                   </div>
                 </div><!--card-->
 
@@ -113,7 +107,7 @@
             <div class="row">
             <div class="card-deck mb-0 px-3 pt-3">
                 <div class="card" id="about-card1">
-                  <img class="card-img-top" src="../img/smještaj.jpg"  alt="Card image cap">
+                  <img class="card-img-top" src="../img/onion1-8.jpg"  alt="Card image cap">
                   <div class="card-body p-0">
                       <h3 class="card-title py-2 pl-2 text-light">Smještaj</h3>
                       <p class="card-text pl-2">Dom nudi smještaj u jednokrevetnim i dvokrevetnim sobama. Svaka od njih je namjenski i vrlo lijepo opremljena. Sve sobe posjeduju specijalne bolničke krevete sa antidekubitalnim madracima, natkasne, ormare i TV. Kupatila su prilagođena pokretnim, polu-pokretnim i nepokretnim osobama. 
@@ -123,7 +117,7 @@
                         U okviru doma je i lijepo uređeno dvorište za odmor i relaksaciju.</p></div>
                 </div>
                 <div class="card" id="about-card2">
-                  <img class="card-img-top" src="../img/prehrana.jpg"  alt="Card image cap">
+                  <img class="card-img-top" src="../img/food.jpg"  alt="Card image cap">
                   <div class="card-body p-0">
                       <h3 class="card-title py-2 pl-2 text-light">Prehrana</h3>
                       <p class="card-text pl-2">Redovito nudimo pet obroka u toku dana - tri glavna i dvije užine. Cjelodnevna ishrana je organizovana u skladu sa principima zdrave ishrane u starosti i prilagođena je zdravstvenom stanju korisnika. Jelovnik je sačinjen na osnovu savjeta ljekara i uz učešće nutricioniste. 
@@ -215,7 +209,7 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <h4 class="pb-2">KONTAKT</h4>
+            <h4 class="pb-2" id="contact">KONTAKT</h4>
             </div><!--col1-->
         </div><!--row1-->
         <div class="row">
@@ -223,7 +217,8 @@
             <p>
               <i class="fa fa-phone"></i>  00 387 (0)62 504 437 <br>
               <i class="fa fa-phone"></i>  00 387 (0)49 234 851 <br>
-              <a href=""><i class="fa fa-envelope"></i> www.dom-onion.ba</a>
+              <!-- <a href=""><i class="fa fa-envelope"></i> www.dom-onion.ba</a> -->
+              <a href="mailto:info@dom-onion.ba?subject=Upit za smještaj u domu Onion" title="info@dom-onion.ba"><i class="fa fa-envelope"></i> www.dom-onion.ba</a>
             </p>
           </div>
         </div>
@@ -234,9 +229,12 @@
         </div><!--row3-->
       </div>
     </footer>
-  
+
   <script src="js/jquery.min.js"></script>
-  <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/cbpAnimatedHeader.js"></script>
+  
 </body>
 </html>
